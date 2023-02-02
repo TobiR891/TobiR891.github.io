@@ -1,0 +1,269 @@
+/* Type Selectors */
+
+html {
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+}
+
+a:hover {
+    color:rgb(2, 29, 62);
+    text-shadow: none;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul {
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+/* ID Selectors */
+
+#mainheading {
+    color:rgb(255, 255, 255);
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top: 80px;
+    left: 50px;
+} 
+
+#specialh2 {
+    color: rgb(167, 205, 250);
+    text-shadow: 2px 2px 3px rgb(68, 68, 68);
+}
+
+/* Navbar Section */
+
+.navbar {
+    box-sizing: border-box;
+    background-color:rgb(167, 205, 250);
+    padding: 20px 20px;
+    width: 100%;
+    height: 8px;
+    position: fixed;
+    top: 0;
+    opacity: .9;
+    z-index: 1;
+}
+
+.navbar span {
+    display: block;
+    position: relative;
+    float: right;
+    bottom: 10px;
+    padding-right: 50px;
+}
+
+/* Banner Section */
+
+.header {
+    box-sizing: border-box;
+    background-color:rgb(2, 29, 62);
+    height: 250px;
+    width: 100%;
+    position: static;
+}
+
+/* Color Section */
+
+.colors {
+    border: solid 2px rgb(2, 29, 62);
+    border-collapse: collapse;
+    margin: 35px;
+    padding-left: 50px;
+}
+
+.colors h2 {
+    color:rgb(167, 205, 250);
+    text-shadow: 2px 2px 3px rgb(68, 68, 68);
+}
+
+.colorblock {
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+
+.normalwhite {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 22px;
+    font-weight: 700;
+    border: solid 1px rgb(68, 68, 68);
+    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+    text-align: center;
+}
+
+.darkgray {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 22px;
+    font-weight: 700;
+    border: solid 1px rgb(68, 68, 68);
+    color:rgb(255, 255, 255);
+    background-color:rgb(68, 68, 68);
+    text-shadow: 1px 1px 2px rgb(2, 29, 62);
+    text-align: center;
+
+}
+
+.lightestblue {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 22px;
+    font-weight: 700;
+    border: solid 1px rgb(68, 68, 68);
+    background-color:rgb(167, 205, 250);
+    color:rgb(2, 29, 62);
+    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+    text-align: center;
+}
+
+.pacificblue {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 22px;
+    font-weight: 700;
+    border: solid 1px rgb(68, 68, 68);
+    background-color:rgb(2, 29, 62);
+    color: rgb(167, 205, 250);
+    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+    text-align: center;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    margin: 5px;
+}
+
+/* Font Section */
+
+.fonts {
+    border: solid 2px rgb(2, 29, 62);
+    border-collapse: collapse;
+    margin: 35px;
+    padding-left: 50px;
+}
+
+.fonts h2 {
+    color:rgb(2, 29, 62);
+    text-shadow: 2px 2px 3px rgb(68, 68, 68);
+}
+
+.fontblock {
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+.fontblock p {
+    font-size: 18px;
+}
+
+.jet-brains-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.jet-brains-mono h3 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.rubik h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: 700px;
+}
+
+
+.sawarabi-mincho {
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.sawarabi-mincho h3 {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.bolt {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+}
+
+/* Text-Style Section */
+
+
+
+.textstyle {
+    border: solid 2px rgb(2, 29, 62);
+    margin: 35px;
+    padding-left: 50px;
+}
+
+/* Footer Section */
+
+footer {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(167, 205, 250);
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+    text-align: center;
+}
+
